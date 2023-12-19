@@ -10,7 +10,7 @@
     <title>Media Query</title>
 </head>
 
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Site Titulo</h1>
         <i id="burger" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
@@ -70,6 +70,15 @@
         </article>
     </main>
     <script>
+        function mudouTamanho() {
+            if (windows.innerWidth >= 768){
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+
+        }
+
         function clickMenu() {
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'
