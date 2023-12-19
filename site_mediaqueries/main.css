@@ -9,7 +9,7 @@ desktop 992 até 1200 px
 
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) { /*mostrar burguer https://www.youtube.com/watch?v=T1rfhkmcH00*/
     body {
         background-image: url(back-tablet.jpg);
     }
@@ -202,13 +202,20 @@ article>p {
     margin-bottom: 10px;
 }
 
-
-
-
 img {
 
     margin: auto;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 /*
